@@ -10,11 +10,6 @@ public class Lista {
 		this.Conteudo = Conteudo;
 	}
 	
-	Lista(Lista l, int Conteudo) {
-		
-		this.Conteudo = Conteudo;
-	}
-	
 	void push(int Conteudo, Lista p) {
 		
 		if(p.next == null) {
